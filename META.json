@@ -1,0 +1,70 @@
+{
+   "abstract" : "Config::Any loader for Java-style property files",
+   "author" : [
+      "Peter Hallam <pragmatic@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300023, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Config-Any-Properties",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Config::Any::Base" : "0",
+            "Config::Properties" : "0",
+            "parent" : "0",
+            "perl" : "v5.10.0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Config::Any" : "0",
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Scalar::Util" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Config::Any::Properties" : {
+         "file" : "lib/Config/Any/Properties.pm",
+         "version" : "0.001000"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pragmatic/Config-Any-Properties/issues"
+      },
+      "homepage" : "https://github.com/pragmatic/Config-Any-Properties/wiki",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pragmatic/Config-Any-Properties.git",
+         "web" : "https://github.com/pragmatic/Config-Any-Properties"
+      }
+   },
+   "version" : "0.001000",
+   "x_authority" : "cpan:PRAGMATIC"
+}
+

@@ -1,9 +1,7 @@
 #  COPYRIGHT: © 2012 Peter Hallam
 
 package Config::Any::Properties;
-BEGIN {
-  $Config::Any::Properties::AUTHORITY = 'cpan:PRAGMATIC';
-}
+our $AUTHORITY = 'cpan:PRAGMATIC';
 
 #   ABSTRACT: Config::Any loader for Java-style property files
 #    CREATED: Thu, 4 Oct 2012 05:03:25 UTC
@@ -13,7 +11,7 @@ use strict;
 use warnings;
 use v5.10;
 
-our $VERSION = '0.001000'; # VERSION
+our $VERSION = '0.001001'; # VERSION
 
 use parent 'Config::Any::Base';
 
@@ -49,7 +47,7 @@ __END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -57,9 +55,9 @@ Config::Any::Properties - Config::Any loader for Java-style property files
 
 =head1 VERSION
 
-C<0.001000>
+C<0.001001>
 
-Released on Thursday, 4 October 2012.
+Released on Friday, 26 December 2014.
 
 =head1 SYNOPSIS
 
@@ -117,13 +115,23 @@ L<Official Oracle java.util.Properties API|http://docs.oracle.com/javase/1.5.0/d
 
 =back
 
-=head1 AUTHOR
+=head1 AUTHORS
+
+=over 4
+
+=item *
 
 Peter Hallam <pragmatic@cpan.org>
 
+=item *
+
+Сергей Романов <sromanov-dev@yandex.ru>
+
+=back
+
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright © 2012 Peter Hallam.
+This software is copyright E<copy> 2012-2014 Peter Hallam.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
